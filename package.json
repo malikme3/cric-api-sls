@@ -1,0 +1,31 @@
+{
+  "name": "sls-cric-api",
+  "version": "1.0.0",
+  "description": "centeral texas cricket league web app",
+  "main": "handler.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitrepos.com"
+  },
+  "keywords": [
+    "sls",
+    "lambda",
+    "test",
+    "cricket"
+  ],
+  "author": "Zulifqar Ahmad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.15",
+    "serverless-offline": "^3.31.3",
+    "mysql": "^2.16.0",
+    "serverless-plugin-typescript": "^1.1.5"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.5",
+    "mysql": "^2.16.0"
+  }
+}
