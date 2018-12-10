@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: cricket-apii # NOTE: update this with your service name
+service: cricket-api # NOTE: update this with your service name
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -50,7 +50,8 @@ provider:
 package:
   exclude:
     - node_modules/**/*
-  include: handler.ts
+  include:
+    - handler.ts
 
 functions:
   teams:
